@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WeatherIO/static/css/main.250cb058.css",
+    "main.js": "/WeatherIO/static/js/main.88396fe6.js",
+    "static/js/453.bc3ef51f.chunk.js": "/WeatherIO/static/js/453.bc3ef51f.chunk.js",
+    "index.html": "/WeatherIO/index.html",
+    "main.250cb058.css.map": "/WeatherIO/static/css/main.250cb058.css.map",
+    "main.88396fe6.js.map": "/WeatherIO/static/js/main.88396fe6.js.map",
+    "453.bc3ef51f.chunk.js.map": "/WeatherIO/static/js/453.bc3ef51f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.250cb058.css",
+    "static/js/main.88396fe6.js"
+  ]
+}
