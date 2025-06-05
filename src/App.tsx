@@ -96,7 +96,7 @@ const App: React.FC = () => {
         {/* Logo */}
         <div className="absolute top-4 left-4">
           <img 
-            src="/WeatherLogo.png" 
+            src={`${process.env.PUBLIC_URL}/WeatherLogo.png`}
             alt="Weather App Logo" 
             className="h-12 w-auto"
           />

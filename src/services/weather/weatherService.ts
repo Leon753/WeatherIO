@@ -54,16 +54,6 @@ export class WeatherService {
     const secondWeekDate = new Date(firstWeekDate);
     secondWeekDate.setDate(firstWeekDate.getDate() + 7);
 
-    console.log('Date calculation:', {
-      today: today.toISOString(),
-      currentDayOfWeek,
-      selectedDayOfWeek,
-      daysUntilSelected,
-      firstWeekDate: firstWeekDate.toISOString(),
-      secondWeekDate: secondWeekDate.toISOString(),
-      isTodaySelected: currentDayOfWeek === selectedDayOfWeek
-    });
-
     const [firstWeekData, secondWeekData] = await Promise.all([
       this.fetchWeatherData(
         location,
